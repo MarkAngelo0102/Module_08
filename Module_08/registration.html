@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel ="stylesheet" href="./style (1).css">
+    </head>
+    
+    <body>
+        <form name="myForm" onsubmit="return(validate());">
+            <div class="row">
+                <label> Employee ID</label>
+                <input type="text" name="employeeId"/> <br>
+                <div class="error" id="nameErr"></div>
+            </div>
+
+            <div class="row">
+                <label> Employee Fist Name</label>
+                <input type="text" name="firstname"/> <br>
+                <div class="error" id="nameErr"></div>
+            </div>
+
+            <div class="row">
+                <label> Employee Last Name</label>
+                <input type="text" name="lastname"/> <br>
+                <div class="error" id="nameErr"></div>
+            </div>
+
+
+            <div class="row">
+                <label> Employee Address </label>
+                <input type="text" name="address"/> <br>
+                <div class="error" id="emailErr"></div>
+            </div>
+
+            <div class="row">
+                <label> Employee Department </label>
+                <input type="text" name="department"/> <br>
+                <div class="error" id="emailErr"></div>
+            </div>
+
+            <div class="row">
+                <label> Employee Position </label>
+                <input type="text" name="position"/> <br>
+                <div class="error" id="emailErr"></div>
+            </div>
+
+            <div class="row">
+                <label> Employee Email </label>
+                <input type="text" name="email"/> <br>
+                <div class="error" id="emailErr"></div>
+            </div>
+
+            <div class="row">
+                <label> Employee Contact No. </label>
+                <input type="number" name="contact"/> <br>
+                <div class="error" id="emailErr"></div>
+            </div>
+
+            <div class="row">
+                <label> Employee Salary </label>
+                <input type="number" name="salary"/> <br>
+                <div class="error" id="emailErr"></div>
+            </div>
+            
+            <div class="row">
+                <label> Employee Username </label>
+                <input type="text" name="username"/> <br>
+                <div class="error" id="emailErr"></div>
+            </div>
+
+
+
+
+
+
+
+            <input type="submit" value="submit"/>
+            <script type="text/javascript" src="validation.js"></script>
+        </form>
+    </body>
+</html>
